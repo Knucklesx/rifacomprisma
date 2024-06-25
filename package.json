@@ -1,0 +1,46 @@
+{
+	"name": "rifrafront",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"prisma": {
+		"seed": "ts-node prisma/seed.ts"
+	},
+	"dependencies": {
+		"@headlessui/react": "^2.1.0",
+		"@hookform/resolvers": "^3.6.0",
+		"@next/eslint-plugin-next": "^14.2.4",
+		"@nextui-org/react": "^2.2.9",
+		"@prisma/client": "^5.15.1",
+		"@types/bcrypt": "^5.0.2",
+		"bcrypt": "^5.1.1",
+		"cookies": "^0.9.1",
+		"cookies-next": "^4.2.1",
+		"mysql2": "^3.10.1",
+		"next": "^14.2.4",
+		"next-auth": "^4.24.7",
+		"prisma": "^5.15.1",
+		"react": "^18",
+		"react-dom": "^18",
+		"react-hook-form": "^7.52.0",
+		"react-hot-toast": "^2.4.1",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@types/cookies": "^0.9.0",
+		"@types/node": "^20.14.8",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"eslint": "^8",
+		"eslint-config-next": "14.2.4",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.2"
+	}
+}
