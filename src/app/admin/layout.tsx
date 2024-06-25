@@ -9,10 +9,6 @@ import { Toaster } from "react-hot-toast";
 import { authOptions } from "../api/auth/[...nextauth]/route";
 import { Providers } from "../providers";
 
-export function HeaderStats() {
-	return <>{""}</>;
-}
-
 export default async function Layout({ children }: PropsWithChildren) {
 	const session = await getServerSession(authOptions);
 	return (
