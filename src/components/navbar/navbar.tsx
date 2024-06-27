@@ -7,10 +7,7 @@ import { useState } from "react";
 export default function NavBar({ transparent = false }) {
 	const [navbarOpen, setNavbarOpen] = useState(false);
 	const router = useRouter();
-	const handleClick = (e: any) => {
-		e.preventDefault();
-		router.push("https://ciaa.io/downloads.html");
-	};
+
 	return (
 		<>
 			<nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">

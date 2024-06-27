@@ -10,7 +10,7 @@ export default function Login() {
 							<div className="rounded-t mb-0 px-6 py-6">
 								<div className="text-center mb-3">
 									<h6 className="text-blueGray-500 text-sm font-bold">
-										RIFAS NORDESTE!
+										VEGAS:3.12
 									</h6>
 								</div>
 								<hr className="mt-6 border-b-1 border-blueGray-300" />
@@ -21,7 +21,10 @@ export default function Login() {
 						</div>
 						<div className="flex flex-wrap mt-6 relative">
 							<div className="w-1/2">
-								<a href="/" className="text-blueGray-200">
+								<a
+									href="https://wa.me/79999594913"
+									className="text-blueGray-200"
+								>
 									<small>Duvidas?</small>
 								</a>
 							</div>

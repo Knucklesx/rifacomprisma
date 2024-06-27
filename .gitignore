@@ -41,3 +41,4 @@ src/components/forms/login_formNestJS.txt
 
 # OldRoute
 src/app/api/auth/[...nextauth]/routeOldForBackNest.txt
+src/app/api/auth/[...nextauth]/routeOldForBackNest.txt
