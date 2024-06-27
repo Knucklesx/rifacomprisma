@@ -37,4 +37,7 @@ next-env.d.ts
 
 
 # OldForms
-/src/components/forms/login_formNextJS.txt
+src/components/forms/login_formNestJS.txt
+
+# OldRoute
+src/app/api/auth/[...nextauth]/routeOldForBackNest.txt
